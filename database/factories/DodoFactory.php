@@ -21,6 +21,7 @@ class DodoFactory extends Factory
             'size' => fake()->text(),
             'price' => fake()->numberBetween(200,2000),
             'reduction' => fake()->text(),
+            'total'=>fake()->numberBetween(200,2000),
             'image' => fake()->image(),
         ];
     }

@@ -7,10 +7,11 @@ use Illuminate\Http\Request;
 
 class DodoController extends Controller
 {
-    public function connect()
-    {
-        return view('connexion');
-    }
+    // public function connect()
+    // {
+    //     return view('connexion');
+    // }
+       
 
     public function dodos()
     {
@@ -36,8 +37,8 @@ class DodoController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'brand' => 'required|array|min:1',
-            'size' => 'required|array|min:1',
+            'brand.*' => 'required|in:'.implode(',', ['Epeda', 'Dreamway', 'Bultex', 'Dorsoline', 'MemoryLine']),
+            'size.*' => 'required|in:'.implode(',', ['90 x 190', '140 x 190', '160 x 200', '180 x 200', '200 x 200']),
             'price' => 'required',
             'reduction' => 'required',
             'image' => 'nullable|string',

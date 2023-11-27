@@ -11,12 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('dodosPrix', function (Blueprint $table) {
+        Schema::create('dodos', function (Blueprint $table) {
             $table->id();
             $table->string('brand');
             $table->string('size');
             $table->string('price');
             $table->string('reduction');
+            $table->string('total');
             $table->text('image');
             $table->timestamps();
         });

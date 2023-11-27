@@ -8,14 +8,14 @@
     <title>Literie3000</title>
 </head>
 <body>
-    <header class="bg-white h-16">
-        <div class="flex justify-around items-center h-16">
-            <div>
+    <header class="bg-white h-16 mb-16">
+        <div class="flex justify-around items-center h-32">
+            <div class="m-auto">
                 <img src="/uploads/logo.png" alt="logo">
             </div>
-            <div class = "flex items-center">
+            <div class = "">
                 <nav>
-                    <a class="bg-green-500 rounded text-xl"  href="/connect">Se connecter</a>                               
+                    <a class="bg-blue-700 rounded text-xl text-white"  href="/">Se déconnecter</a>                               
                 </nav>
             </div>
         </div>

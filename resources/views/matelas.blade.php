@@ -14,11 +14,11 @@
         </div>
         <div class="w-3/5">
             <div class="border p-4 shadow-lg">
-                <h1 class="text-3xl">{{ $dodos->name }}</h1>
+                <h1 class="text-3xl">{{ $dodos->brand }}</h1>
                 <p class="my-3">{{ $dodos->size }}</p>
-                <p class="my-3">{{ $dodos->color }}</p>
                 <p class="my-3">{{ $dodos->price }} euros</p>
-                <p class="my-3">{{ $dodos->description }}</p>
+                <p class="my-3">{{ $dodos->reduction}} euros</p>
+                <p class="my-3"> {{ price($dodo) }} </p>
             </div>        
         </div>
     </div>

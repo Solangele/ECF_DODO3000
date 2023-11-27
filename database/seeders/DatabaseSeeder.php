@@ -31,6 +31,7 @@ class DatabaseSeeder extends Seeder
             'size'=> '90 x 190',
             'price'=>'759,00', 
             'reduction'=> '230,00',
+            'total'=>'529,00',
             'image'=>'/uploads/epeda90.jpg'
         ]);
 
@@ -39,6 +40,7 @@ class DatabaseSeeder extends Seeder
             'size'=> '90 x 190',
             'price'=>'809,00', 
             'reduction'=> '100,00',
+            'total'=>'709,00',
             'image'=>'/uploads/Dreamway90.jpeg'
         ]);
 
@@ -47,6 +49,7 @@ class DatabaseSeeder extends Seeder
             'size'=> '140 x 190',
             'price'=>'759,00', 
             'reduction'=> '230,00',
+            'total'=>'529,00',
             'image'=>'/uploads/bultex.jpeg'
         ]);
 
@@ -63,6 +66,7 @@ class DatabaseSeeder extends Seeder
             'size'=> '140 x 190',
             'price'=>'830,00', 
             'reduction'=> '100,00',
+            'total'=>'730,00',
             'image'=>'/uploads/Dorsoline.jpg'
         ]);
 
@@ -71,6 +75,7 @@ class DatabaseSeeder extends Seeder
             'size'=> '160 x 190',
             'price'=>'1200,00', 
             'reduction'=> '150,00',
+            'total'=>'1050,00',
             'image'=>'/uploads/MemoryLine.jpg'
         ]);
 
@@ -79,6 +84,7 @@ class DatabaseSeeder extends Seeder
             'size'=> '140 x 190',
             'price'=>'670,00', 
             'reduction'=> '50,00',
+            'total'=>'620,00',
             'image'=>'/uploads/epeda.jpg'
         ]);
 
@@ -87,6 +93,7 @@ class DatabaseSeeder extends Seeder
             'size'=> '200 x 200',
             'price'=>'1400,00', 
             'reduction'=> '200,00',
+            'total'=>'1200,00',
             'image'=>'/uploads/Dorsoline200.png'
         ]);
 
@@ -103,6 +110,7 @@ class DatabaseSeeder extends Seeder
             'size'=> '140 x 190',
             'price'=>'840,00', 
             'reduction'=> '100,00',
+            'total'=>'740,00',
             'image'=>'/uploads/dreamway.jpg'
         ]);
     }

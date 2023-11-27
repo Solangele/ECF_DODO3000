@@ -16,14 +16,7 @@
 
         <div class="mb-3">
             <label for="title" class="block">Marque</label>
-            <select name="" id="">
-                <option value="">--Marque du matelas--</option>
-                <option value=""> Epeda </option>
-                <option value=""> Dreamway </option>
-                <option value=""> Bultex </option>
-                <option value=""> Dorsoline </option>
-                <option value=""> MemoryLine </option>
-                </select>
+            <input type="text" name="brand" id="brand" value="{{ old('brand') }}" class="rounded shadow border-gray-300 w-full">
             @error('brand')
                 <div class="text-red-500">{{ $message }}</div>
             @enderror
@@ -31,14 +24,7 @@
 
         <div class="mb-3">
             <label for="size" class="block">Taille</label>
-            <select name="" id="">
-            <option value="">--Taille du matelas--</option>
-            <option value=""> 90 x 190 </option>
-            <option value=""> 140 x 190 </option>
-            <option value=""> 160 x 200 </option>
-            <option value=""> 180 x 200 </option>
-            <option value=""> 200 x 200 </option>
-            </select>
+            <input type="text" name="size" id="size" value="{{ old('size') }}" class="rounded shadow border-gray-300 w-full">
             @error('size')
                 <div class="text-red-500">{{ $message }}</div>
             @enderror
@@ -54,7 +40,7 @@
 
         <div class="mb-3">
             <label for="reduction" class="block">Reduction</label>
-            <input type="text" name="reduction" id="reduction" value="{{ old('reduction') }}" class="rounded shadow border-gray-300 w-full">
+            <input type="text" name="reduction" id="price" value="{{ old('reduction') }}" class="rounded shadow border-gray-300 w-full">
             @error('reduction')
                 <div class="text-red-500">{{ $message }}</div>
             @enderror
