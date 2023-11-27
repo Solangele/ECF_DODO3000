@@ -17,8 +17,8 @@
                 <h1 class="text-3xl">{{ $dodos->brand }}</h1>
                 <p class="my-3">{{ $dodos->size }}</p>
                 <p class="my-3">{{ $dodos->price }} euros</p>
-                <p class="my-3">{{ $dodos->reduction}} euros</p>
-                <p class="my-3"> {{ price($dodo) }} </p>
+                <p class="my-3">{{ $dodos->reduction}} euros de réduction</p>
+                <p class="my-3 underline font-bold"> Soit un prix total de {{ $dodos->total }} euros</p>
             </div>        
         </div>
     </div>

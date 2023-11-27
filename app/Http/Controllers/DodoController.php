@@ -49,6 +49,7 @@ class DodoController extends Controller
         $dodo->size = $request->size;
         $dodo->price = $request->price;
         $dodo->reduction = $request->reduction;
+        $dodo->total = $request->total;
         $dodo->image = 'Hello';
         $dodo->save();
 
