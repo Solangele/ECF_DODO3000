@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('dodos', function (Blueprint $table) {
+        Schema::create('dodosPrix', function (Blueprint $table) {
             $table->id();
             $table->string('brand');
             $table->string('size');

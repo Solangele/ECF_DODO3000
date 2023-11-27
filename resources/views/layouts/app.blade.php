@@ -13,9 +13,6 @@
             <div>
                 <img src="/uploads/logo.png" alt="logo">
             </div>
-            <div class=" ">
-                <h1 class = text-xl>Catalogue</h1>
-            </div>
             <div class = "flex items-center">
                 <nav>
                     <a class="bg-green-500 rounded text-xl"  href="/connect">Se connecter</a>                               
