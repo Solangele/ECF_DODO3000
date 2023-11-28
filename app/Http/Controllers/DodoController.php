@@ -7,10 +7,10 @@ use Illuminate\Http\Request;
 
 class DodoController extends Controller
 {
-    // public function connect()
-    // {
-    //     return view('connexion');
-    // }
+    public function connect()
+    {
+        return view('connexion');
+    }
        
 
     public function dodos()
